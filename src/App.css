@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500,600,700&display=swap');
+/* 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+} */
+
+#portfolio {
+  text-align: center;
+}
+
+#portfolio .portfolio-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1.5em 0 0 -1.5em;
+}
+
+#portfolio .portfolio-tiles .portfolio-item {
+  width: calc(33.33333% - 1.5em);
+  margin: 1.5em 0 0 1.5em;
+  background: red;
+}
+
+.page-header {
+  display: block;
+}
+
+#footer li:not(:first-child) {
+  display: inline;
+  margin: 0 1.5em 1.5em 0;
+}
+
+@media screen and (max-width: 1280px) {
+  #portfolio .portfolio-tiles {
+    margin: -1.25em;
+  }
+  #portfolio .portfolio-tiles .portfolio-item {
+    margin: 1.25em 0 0 1.25em;
+    width: calc(50% - 1.25em);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App > .container > .row .page-header {
+    text-align: center;
+  }
+  #portfolio .portfolio-tiles {
+    margin: 0;
+  }
+  #portfolio .portfolio-tiles .portfolio-item {
+    margin: 1.25em;
+    width: 100%;
+  }
+}
