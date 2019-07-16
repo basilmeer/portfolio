@@ -14,13 +14,13 @@ class App extends Component {
     return (
       <div className="App">
         <ul className="sm-list">
-          <li><a href="https://twitter.com/basil_meer"><FontAwesomeIcon icon={ faEnvelope } size="lg" /></a></li>
-          <li><a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } size="lg" /></a></li>
+          <li><a href="mailto:hello@basilmeer.com"><FontAwesomeIcon icon={ faEnvelope } size="lg" /></a></li>
+          <li><a href="https://www.linkedin.com/in/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } size="lg" /></a></li>
           <li><a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faGithub } size="lg" /></a></li>
         </ul>
         <div className="container">
           <div className="row">
-            <div className="col-8">
+            <div className="col-12 col-md-8 order-2 order-md-1">
               <div className="page-header">
                 <h1 className="display-4">Welcome</h1>
                 <p className="lead">I'm <span className="font-weight-bold">Basil Meer</span>, a <span className="font-weight-bold">Front-End Developer</span> and a <span className="font-weight-bold">UI/UX Designer</span>, and I am currently available for hire. If you think I'm the right guy for the job then hit me up at <a href="mailto:hello@basilmeer.com">hello@basilmeer.com</a> and we can work something out.</p>
@@ -28,8 +28,8 @@ class App extends Component {
                 <a target="_blank" href={ cv } className="btn btn-outline-secondary">CV</a>
               </div>
             </div>
-            <div className="col-4">
-              <img src={picture} alt="" className="img-fluid"/>
+            <div className="col-12 col-md-4 order-1 order-md-2 text-center text-md-left">
+              <img src={picture} alt="" className="img-fluid img-me"/>
             </div>
           </div>
           <Portfolio />
