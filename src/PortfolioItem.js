@@ -1,17 +1,17 @@
 import React from 'react';
 
 function PortfolioItem(props) {
-  let { image, title, content } = props;
+  let { image, title, content, href } = props;
   return(
     <div className="portfolio-item">
       <span className="image">
-        <img src={ image } alt=""/>
+        <img src={image} alt={title} />
       </span>
-      <a href="#">
-        <h2>{ title }</h2>
+      <a href={href}>
+        <h2>{title}</h2>
         <div className="content">
           <p>
-            { content }
+            {content}
           </p>
         </div>
       </a>
