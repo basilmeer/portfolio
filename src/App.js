@@ -23,7 +23,7 @@ class App extends Component {
             <div className="col-12 col-md-8 order-2 order-md-1">
               <div className="page-header">
                 <h1 className="display-4">Welcome</h1>
-                <p className="lead">I'm <span className="font-weight-bold">Basil Meer</span>, a <span className="font-weight-bold">Front-End Developer</span> and a <span className="font-weight-bold">UI/UX Designer</span>, and I am currently available for hire. If you think I'm the right guy for the job then hit me up at <a href="mailto:hello@basilmeer.com">hello@basilmeer.com</a> and we can work something out.</p>
+                <p className="lead">I'm <span className="font-weight-bold">Basil Meer</span>, a <span className="font-weight-bold">Front-End Developer</span>, and I am currently available for hire. If you think I'm the right guy for the job then hit me up at <a href="mailto:hello@basilmeer.com">hello@basilmeer.com</a> and maybe we can work something out!</p>
                 <a target="_blank" href={ resume } className="btn btn-outline-primary mr-2">Resume</a>
                 <a target="_blank" href={ cv } className="btn btn-outline-secondary">CV</a>
               </div>
@@ -48,7 +48,7 @@ class App extends Component {
                     <a href="mailto:hello@basilmeer.com"><FontAwesomeIcon icon={ faEnvelope } /></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/pk/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } /></a>
+                    <a href="https://www.linkedin.com/in/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } /></a>
                   </li>
                   <li>
                     <a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faGithub } /></a>
