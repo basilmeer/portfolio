@@ -5,21 +5,29 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Contact from './Contact';
 import './App.css';
+import resume from './basilmeer-resume-oct-2019.pdf';
 import picture from './basil-meer.jpg';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container py-5">
+        <ul className="sm-list">
+          <li><a href="mailto:hello@basilmeer.com"><FontAwesomeIcon icon={ faEnvelope } size="lg" /></a></li>
+          <li><a href="https://www.linkedin.com/in/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } size="lg" /></a></li>
+          <li><a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faGithub } size="lg" /></a></li>
+        </ul>
+        <div className="container">
           <div className="row">
-            <div className="col-9">
+            <div className="col-12 col-md-8 order-2 order-md-1">
               <div className="page-header">
-                <h1 className="display-4">Salaam.</h1>
-                <p className="lead">I'm Basil Meer, a Front-End Developer and a UI/UX Designer. Welcome to my portfolio!</p>
-                <a href="#" className="btn btn-outline-primary mr-2">Resume</a>
-                <a href="#" className="btn btn-outline-secondary">CV</a>
+                <h1 className="display-4">Welcome</h1>
+                <p className="lead">I'm <span className="font-weight-bold">Basil Meer</span>, a <span className="font-weight-bold">Front-End Developer</span> and a <span className="font-weight-bold">UI/UX Designer</span>, and I am currently available for hire. If you think I'm the right guy for the job then hit me up at <a href="mailto:hello@basilmeer.com">hello@basilmeer.com</a> and maybe we can work something out!</p>
+                <a target="_blank" href={ resume } className="btn btn-outline-primary mr-2">Download Resume</a>
               </div>
+            </div>
+            <div className="col-12 col-md-4 order-1 order-md-2 text-center text-md-left">
+              <img src={picture} alt="" className="img-fluid img-me"/>
             </div>
           </div>
           <Portfolio />
@@ -28,12 +36,23 @@ class App extends Component {
             <div className="row">
               <div className="col-lg-12">
                 <ul className="list-unstyled">
-                  <li className="float-right"><a href="#top">Back to top</a></li>
-                  <li><a href="https://twitter.com/basil_meer"><FontAwesomeIcon icon={ faEnvelope } /></a></li>
-                  <li><a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } /></a></li>
-                  <li><a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faGithub } /></a></li>
+                  <li className="float-right">
+                    <a href="#">Back to top</a>
+                  </li>
+                  <li>
+                    You can also find me here:
+                    </li>
+                  <li>
+                    <a href="mailto:hello@basilmeer.com"><FontAwesomeIcon icon={ faEnvelope } /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/basilmeer/"><FontAwesomeIcon icon={ faLinkedin } /></a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/basilmeer/"><FontAwesomeIcon icon={ faGithub } /></a>
+                  </li>
                 </ul>
-                <p>Created by <a href="https://thomaspark.co">Basil Meer</a>.</p>
+                <p>Copyright 2019 &copy; <a href="https://www.basilmeer.com">Basil Meer</a>. All rights reserved.</p>
               </div>
             </div>
           </footer>
