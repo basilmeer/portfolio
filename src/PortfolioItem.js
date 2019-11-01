@@ -7,7 +7,7 @@ function PortfolioItem(props) {
       <span className="image">
         <img src={image} alt={title} />
       </span>
-      <a href={href}>
+      <a href={href} target="_blank">
         <h2>{title}</h2>
         <div className="content">
           <p>
