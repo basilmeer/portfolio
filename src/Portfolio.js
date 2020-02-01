@@ -56,7 +56,7 @@ let portfolioList = [
     "title": "Veteran People",
     "image": veteran_people_thumbnail,
     "content": "Redesigned and rebranded a digital agency's website that focused on developing, maintaining and hosting WordPress websites.",
-    "href": "https://veteranpeople.com"
+    "href": "https://drive.google.com/open?id=1KV4rxLIaGd-FHCyaOiCWMYndZeQocOxp"
   },
   {
     "title": "Villa",

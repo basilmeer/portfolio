@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Contact from './Contact';
 import './App.css';
-import resume from './basilmeer-resume-oct-2019.pdf';
+import resume from './basilmeer-resume-jan-2020.pdf';
 import picture from './basil-meer.jpg';
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
             <div className="col-12 col-md-8 order-2 order-md-1">
               <div className="page-header">
                 <h1 className="display-4">Welcome</h1>
-                <p className="lead">I'm <span className="font-weight-bold">Basil Meer</span>, a <span className="font-weight-bold">Front-End Developer</span> and a <span className="font-weight-bold">UI/UX Designer</span>, and I am currently available for hire. If you think I'm the right guy for the job then hit me up at <a href="mailto:hello@basilmeer.com">hello@basilmeer.com</a> and maybe we can work something out!</p>
+                <p className="lead">I'm <span className="font-weight-bold">Basil Meer</span>, a <span className="font-weight-bold">Front-End Developer</span>, and I am currently available for hire. I design bespoke websites in <span className="font-weight-bold">Figma</span>, convert them into markup using <span className="font-weight-bold">Bootstrap</span>, wire up the client-side with <span className="font-weight-bold">React.js</span> and setup the backend using <span className="font-weight-bold">Node.js</span> or <span className="font-weight-bold">Laravel</span>. If you think I'm the right guy for the job then hit me up at <a href="mailto:hello@basilmeer.com">hello@basilmeer.com</a> and maybe we can work something out!</p>
                 <a target="_blank" href={ resume } className="btn btn-outline-primary mr-2">Download Resume</a>
               </div>
             </div>
