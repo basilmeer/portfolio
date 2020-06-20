@@ -1,0 +1,9 @@
+#footer {
+  font-weight: 300;
+  margin-top: 150px;
+
+  li:not(:first-child) {
+    display: inline;
+    margin: 0 1.5em 1.5em 0;
+  }
+}

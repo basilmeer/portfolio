@@ -1,0 +1,244 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './components/Contact/style.scss';
+@import './components/Footer/style.scss';
+@import './components/Navbar/style.scss';
+@import './components/Portfolio/style.scss';
+@import './components/Snackbar/style.scss';
+@import './components/Welcome/style.scss';
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 100;
+  src: url('./assets/fonts/Noto_Sans_JP/NotoSansJP-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 300;
+  src: url('./assets/fonts/Noto_Sans_JP/NotoSansJP-Light.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  src: url('./assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 700;
+  src: url('./assets/fonts/Noto_Sans_JP/NotoSansJP-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 900;
+  src: url('./assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf')
+    format('opentype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  a {
+    border-bottom: 1px dotted #d0d6e2;
+    &:hover {
+      text-decoration: none;
+      border-bottom-color: #000;
+    }
+  }
+
+  &:not(.is-touch) {
+    .portfolio-tiles {
+      .portfolio-item:hover > span.image {
+        transform: scale(1.1);
+
+        &::before {
+          background-color: transparent;
+        }
+      }
+    }
+
+    #portfolio {
+      .portfolio-tiles {
+        .portfolio-item:hover a .content {
+          max-height: 15em;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  padding: 30px 20px;
+  border-radius: 0;
+  outline: 0;
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+    border-color: #585858;
+  }
+}
+
+.content-container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.lead {
+  line-height: 32px;
+  word-spacing: 3px;
+}
+
+a {
+  color: #333;
+}
+
+.button-shadow {
+  padding: 15px 25px;
+  color: black;
+  border-color: black;
+  border-radius: 0;
+  -webkit-animation: shadow-expand-br 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: shadow-expand-br 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    background-color: black;
+    color: white;
+    -webkit-animation: shadow-contract-br 0.7s
+      cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: shadow-contract-br 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  }
+}
+
+.page-header {
+  display: block;
+
+  h3 {
+    position: relative;
+    margin-bottom: 40px;
+
+    &::before {
+      content: '';
+      width: 450px;
+      border-bottom: 1px solid #e8e8e8;
+      position: absolute;
+      left: 0;
+      top: 13px;
+
+      @media screen and (max-width: 480px) {
+        width: 10px;
+        border-color: red;
+      }
+    }
+
+    &::after {
+      content: '';
+      width: 450px;
+      border-bottom: 1px solid #e8e8e8;
+      position: absolute;
+      right: 0;
+      top: 13px;
+
+      @media screen and (max-width: 480px) {
+        width: 10px;
+        border-color: red;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #portfolio .portfolio-tiles {
+    margin: -1.25em;
+  }
+  #portfolio .portfolio-tiles .portfolio-item {
+    margin: 1.25em 0 0 1.25em;
+    width: calc(50% - 1.25em);
+  }
+  .sm-list {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 3em 0 3em 0;
+  }
+  .App > .container > .row .page-header {
+    text-align: center;
+  }
+  .App > .container > .row .page-header .display-4 {
+    font-size: 2.5rem;
+  }
+  .App > .container > .row .page-header .lead {
+    font-size: 0.894rem;
+  }
+  .sm-list {
+    display: none;
+  }
+  .img-me {
+    width: 50%;
+    margin-bottom: 1.5em;
+  }
+  #portfolio .portfolio-tiles {
+    margin: 0;
+  }
+  #portfolio .portfolio-tiles .portfolio-item {
+    margin: 1.25em 0 1.25em 0;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes shadow-expand-br {
+  0% {
+    box-shadow: 0px 0px;
+  }
+  100% {
+    box-shadow: 8px 8px;
+  }
+}
+
+@keyframes shadow-expand-br {
+  0% {
+    box-shadow: 0px 0px;
+  }
+  100% {
+    box-shadow: 8px 8px;
+  }
+}
+
+@-webkit-keyframes shadow-contract-br {
+  0% {
+    box-shadow: 8px 8px;
+  }
+  100% {
+    box-shadow: 0px 0px;
+  }
+}
+
+@keyframes shadow-contract-br {
+  0% {
+    box-shadow: 8px 8px;
+  }
+  100% {
+    box-shadow: 0px 0px;
+  }
+}

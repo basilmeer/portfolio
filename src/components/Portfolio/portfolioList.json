@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Denoted",
+    "content": "A React and Ruby on Rails-based note-taking web app that sports a nifty text editor with a clean and sleek look.",
+    "href": "https://denoted.herokuapp.com"
+  },
+  {
+    "title": "Combo-Fu",
+    "content": "A MERN-based web app that translates fighting game notation into visual inputs.",
+    "href": "https://combo-fu.herokuapp.com"
+  },
+  {
+    "title": "Recipes a la React",
+    "content": "A MERN-based recipe noting web app that also uses Apollo Boost to link up GraphQL.",
+    "href": "https://recipes-a-la-react.herokuapp.com"
+  },
+  {
+    "title": "React and Redux IM",
+    "content": "Made a chat app built with React, Redux Saga and Websockets that runs purely on the client-side with no back-end.",
+    "href": "https://github.com/basilmeer/react-redux-instant-messaging"
+  },
+  {
+    "title": "OMDbrowser",
+    "content": "Made React-based web app that uses the OMDb API to query and show movies, TV series and whatnot.",
+    "href": "https://omdbrowser.netlify.com/"
+  },
+  {
+    "title": "Nadius Solutions",
+    "content": "Made the company website for a Dutch software house that provides various web-related services.",
+    "href": "http://nadisol.com/"
+  },
+  {
+    "title": "Veteranlogix",
+    "content": "Made the company website for a Pakistan-based software house that provides custom-tailored digital solutions.",
+    "href": "https://www.veteranlogix.com/"
+  },
+  {
+    "title": "Veteran People",
+    "content": "Redesigned and rebranded a digital agency website that focused on developing, maintaining and hosting WordPress websites.",
+    "href": "https://drive.google.com/open?id=1KV4rxLIaGd-FHCyaOiCWMYndZeQocOxp"
+  },
+  {
+    "title": "Villa",
+    "content": "Designed a website for a fictional real estate agency as a part of a batch of designs that was to be adapted to WordPress themes.",
+    "href": "https://drive.google.com/open?id=1ePmgWYVRGZuZelE4RBvIztNxoTUdxG4p"
+  },
+  {
+    "title": "Hobuddies",
+    "content": "Created the brand identity and made various graphics for marketing purposes for a speed-networking social media platform.",
+    "href": "https://drive.google.com/open?id=1g2HtD-h0eC3nlGpl8cbvB89kizgG5b8C"
+  },
+  {
+    "title": "clean",
+    "content": "Designed a one page portfolio website for a fictional company as a part of a batch of designs that was to be adapted to WordPress themes.",
+    "href": "https://drive.google.com/open?id=1SGttwhmoTD46uNHXvyg5CrP-iSCB-2wp"
+  },
+  {
+    "title": "Snapshot",
+    "content": "Designed a website for a fictional photography studio as a part of a batch of designs that was to be adapted to WordPress themes.",
+    "href": "https://drive.google.com/open?id=1mZjTCMxc1Caaktjua8xXi0q7KWJvVAIw"
+  },
+  {
+    "title": "Craft World",
+    "content": "Designed the logo for a platform that aimed to give exposure to local handicraft artisans in Pakistan.",
+    "href": "https://drive.google.com/open?id=1-qgvM6ADFRR8H4RszZHHOAHDflV1dgok"
+  }
+]
