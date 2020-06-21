@@ -4,7 +4,7 @@ const Contact = () => (
   <div className='content-container' id='contact'>
     <div id='contact'>
       <div className='page-header text-center'>
-        <h3>Contact</h3>
+        <h3 className='heading'>Contact</h3>
       </div>
       <div className='row mt-4'>
         <div className='form-group col-12 col-md-6'>

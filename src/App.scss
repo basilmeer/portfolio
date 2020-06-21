@@ -42,6 +42,16 @@
     format('opentype');
 }
 
+::selection {
+  background-color: black;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: black;
+  color: white;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -102,11 +112,46 @@ h1 {
 
 .lead {
   line-height: 32px;
-  word-spacing: 3px;
+  word-spacing: 5px;
+  letter-spacing: 0.5px;
 }
 
 a {
   color: #333;
+  text-decoration: none;
+}
+
+.anchor-fancy {
+  position: relative;
+
+  a {
+    z-index: 200;
+    border-bottom: 0;
+
+    &::after {
+      content: '';
+      background: #d4d4d4;
+      position: absolute;
+      left: 12px;
+      bottom: -4px;
+      width: calc(100% - 8px);
+      height: calc(100% - 12px);
+      z-index: -1;
+      transition: 0.35s cubic-bezier(0.25, 0.1, 0, 1.05);
+    }
+
+    &:hover {
+      color: white;
+
+      &:after {
+        background: black;
+        left: -5px;
+        bottom: -2px;
+        width: 105%;
+        height: 105%;
+      }
+    }
+  }
 }
 
 .button-shadow {
@@ -131,7 +176,7 @@ a {
 .page-header {
   display: block;
 
-  h3 {
+  .heading {
     position: relative;
     margin-bottom: 40px;
 

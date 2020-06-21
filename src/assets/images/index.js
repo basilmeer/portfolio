@@ -12,8 +12,8 @@ const images = {
   veteran_people: require('./veteran_people.png'),
   veteranlogix: require('./veteranlogix.png'),
   villa: require('./villa.png'),
-  icon: require('./b-icon.svg'),
-  basil: require('./basil-meer.jpg'),
+  icon: require('./b_icon.svg'),
+  basil: require('./basil_meer.jpg'),
 };
 
 export default images;

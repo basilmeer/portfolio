@@ -6,11 +6,13 @@ const Portfolio = () => (
   <div className='content-container' id='portfolio'>
     <div id='portfolio'>
       <div className='page-header text-center'>
-        <h3>Portfolio</h3>
+        <h3 className='heading'>Portfolio</h3>
       </div>
       <p className='lead'>
-        Here are a few design projects I've worked on recently. Want to see
-        more? Email me.
+        Here are a few projects I've worked on recently. Want to see more?&nbsp;
+        <span className='anchor-fancy'>
+          <a href='mailto:hello@basilmeer.com'>Hit me up!</a>
+        </span>
       </p>
       <div className='portfolio-tiles mt-5 mb-3'>
         {portfolioList.map((item, index) => {
