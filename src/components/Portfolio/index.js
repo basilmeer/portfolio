@@ -3,8 +3,8 @@ import PortfolioItem from './PortfolioItem';
 import portfolioList from './portfolioList.json';
 
 const Portfolio = () => (
-  <div className='content-container' id='portfolio'>
-    <div id='portfolio'>
+  <div id='portfolio'>
+    <div className='content-container'>
       <div className='page-header text-center'>
         <h3 className='heading'>Portfolio</h3>
       </div>
@@ -16,7 +16,7 @@ const Portfolio = () => (
       </p>
       <div className='portfolio-tiles mt-5 mb-3'>
         {portfolioList.map((item, index) => {
-          if (index < 6)
+          if (index < 4)
             return (
               <PortfolioItem
                 key={index}
