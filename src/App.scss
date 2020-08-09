@@ -9,6 +9,8 @@
 @import './components/Snackbar/style.scss';
 @import './components/Welcome/style.scss';
 
+@import './darkmode.scss';
+
 @font-face {
   font-family: 'Noto Sans JP';
   font-weight: 100;
@@ -59,10 +61,9 @@ html {
 body {
   font-family: 'Noto Sans JP', sans-serif;
   a {
-    border-bottom: 1px dotted #d0d6e2;
     &:hover {
+      color: #7a7a7a;
       text-decoration: none;
-      border-bottom-color: #000;
     }
   }
 
@@ -76,15 +77,13 @@ body {
         }
       }
     }
+  }
+}
 
-    // #portfolio {
-    //   .portfolio-tiles {
-    //     .portfolio-item:hover a .content {
-    //       max-height: 15em;
-    //       opacity: 1;
-    //     }
-    //   }
-    // }
+.App {
+  transition: 0.25s ease-in-out;
+  @media screen and (max-width: 480px) {
+    padding: 3em 0 3em 0;
   }
 }
 
@@ -106,8 +105,11 @@ h1 {
 }
 
 .content-container {
-  max-width: 1180px;
   margin: 0 auto;
+  max-width: 960px;
+  @media only screen and (min-width: 1900px) {
+    max-width: 1180px;
+  }
 }
 
 .lead {
@@ -210,45 +212,13 @@ a {
   }
 }
 
-@media screen and (max-width: 1280px) {
-  #portfolio .portfolio-tiles {
-    margin: -1.25em;
-  }
-  #portfolio .portfolio-tiles .portfolio-item {
-    margin: 1.25em 0 0 1.25em;
-    width: calc(50% - 1.25em);
-  }
-  .sm-list {
-    display: none;
-  }
+.font-weight-extra-bold {
+  font-weight: 900 !important;
 }
 
-@media screen and (max-width: 480px) {
-  .App {
-    padding: 3em 0 3em 0;
-  }
-  .App > .container > .row .page-header {
-    text-align: center;
-  }
-  .App > .container > .row .page-header .display-4 {
-    font-size: 2.5rem;
-  }
-  .App > .container > .row .page-header .lead {
-    font-size: 0.894rem;
-  }
-  .sm-list {
+.sm-list {
+  @media screen and (max-width: 1280px) {
     display: none;
-  }
-  .img-me {
-    width: 50%;
-    margin-bottom: 1.5em;
-  }
-  #portfolio .portfolio-tiles {
-    margin: 0;
-  }
-  #portfolio .portfolio-tiles .portfolio-item {
-    margin: 1.25em 0 1.25em 0;
-    width: 100%;
   }
 }
 

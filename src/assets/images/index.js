@@ -14,6 +14,7 @@ const images = {
   villa: require('./villa.png'),
   icon: require('./b_icon.svg'),
   basil: require('./basil_meer.jpg'),
+  icon_dark: require('./b_icon_darkmode.svg'),
 };
 
 export default images;

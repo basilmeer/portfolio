@@ -1,0 +1,222 @@
+.dark {
+  background: #1b1b1b;
+  color: white;
+  transition: 0.25s ease-in-out;
+
+  a {
+    color: #8d8d8d;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .navbar {
+    background: #1b1b1b;
+    a {
+      color: white;
+    }
+  }
+
+  .button-shadow {
+    padding: 15px 25px;
+    color: white;
+    border-color: #444;
+    border-radius: 0;
+    -webkit-animation: shadow-expand-br-dark 0.7s
+      cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: shadow-expand-br-dark 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+      both;
+    transition: 0.25s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      -webkit-animation: shadow-contract-br-dark 0.7s
+        cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: shadow-contract-br-dark 0.7s
+        cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    }
+  }
+
+  #welcome {
+    .img-me {
+      -webkit-animation: shadow-expand-tr-dark 0.7s
+        cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: shadow-expand-tr-dark 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+        both;
+    }
+  }
+
+  $bs-1: #3b3b3b;
+  $bs-2: #2e2e2e;
+
+  @-webkit-keyframes shadow-expand-tr-dark {
+    0% {
+      box-shadow: 0px 0px;
+    }
+    100% {
+      box-shadow: 35px -35px $bs-1, 60px -60px $bs-2;
+    }
+  }
+
+  @keyframes shadow-expand-tr-dark {
+    0% {
+      box-shadow: 0px 0px;
+    }
+    100% {
+      box-shadow: 35px -35px $bs-1, 60px -60px $bs-2;
+    }
+  }
+
+  .anchor-fancy {
+    a {
+      color: white;
+
+      &::after {
+        content: '';
+        background: #444444;
+        position: absolute;
+        left: 12px;
+        bottom: -4px;
+        width: calc(100% - 8px);
+        height: calc(100% - 12px);
+        z-index: -1;
+        transition: 0.35s cubic-bezier(0.25, 0.1, 0, 1.05);
+      }
+
+      &:hover {
+        color: black;
+
+        &:after {
+          background: white;
+          left: -5px;
+          bottom: -2px;
+          width: 105%;
+          height: 105%;
+        }
+      }
+    }
+  }
+
+  #portfolio {
+    .portfolio-tiles {
+      .portfolio-item {
+        border: 0;
+        -webkit-animation: shadow-expand-br-big-dark 0.7s
+          cubic-bezier(0.215, 0.61, 0.355, 1) both;
+        animation: shadow-expand-br-big-dark 0.7s
+          cubic-bezier(0.215, 0.61, 0.355, 1) both;
+
+        &:hover {
+          -webkit-animation: shadow-contract-big-dark 0.7s
+            cubic-bezier(0.215, 0.61, 0.355, 1) both;
+          animation: shadow-contract-br-big-dark 0.7s
+            cubic-bezier(0.215, 0.61, 0.355, 1) both;
+        }
+      }
+    }
+  }
+
+  $box-shadow-dark: #252525;
+
+  @-webkit-keyframes shadow-expand-br-big-dark {
+    0% {
+      box-shadow: 0px 0px $box-shadow-dark;
+    }
+    100% {
+      box-shadow: 25px 25px $box-shadow-dark;
+    }
+  }
+
+  @keyframes shadow-expand-br-big-dark {
+    0% {
+      box-shadow: 0px 0px $box-shadow-dark;
+    }
+    100% {
+      box-shadow: 25px 25px $box-shadow-dark;
+    }
+  }
+
+  @-webkit-keyframes shadow-contract-br-big-dark {
+    0% {
+      box-shadow: 25px 25px $box-shadow-dark;
+    }
+    100% {
+      box-shadow: 0px 0px $box-shadow-dark;
+    }
+  }
+
+  @keyframes shadow-contract-br-big-dark {
+    0% {
+      box-shadow: 25px 25px $box-shadow-dark;
+    }
+    100% {
+      box-shadow: 0px 0px $box-shadow-dark;
+    }
+  }
+
+  @-webkit-keyframes shadow-expand-br-dark {
+    0% {
+      box-shadow: 0px 0px #444;
+    }
+    100% {
+      box-shadow: 8px 8px #444;
+    }
+  }
+
+  @keyframes shadow-expand-br-dark {
+    0% {
+      box-shadow: 0px 0px #444;
+    }
+    100% {
+      box-shadow: 8px 8px #444;
+    }
+  }
+
+  @-webkit-keyframes shadow-contract-br-dark {
+    0% {
+      box-shadow: 8px 8px #444;
+    }
+    100% {
+      box-shadow: 0px 0px #444;
+    }
+  }
+
+  @keyframes shadow-contract-br-dark {
+    0% {
+      box-shadow: 8px 8px #444;
+    }
+    100% {
+      box-shadow: 0px 0px #444;
+    }
+  }
+
+  .form-control {
+    background: #1b1b1b;
+    color: white;
+    border-color: #333;
+  }
+
+  .snackbar {
+    li {
+      a {
+        color: #8d8d8d;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+
+  ::selection {
+    background-color: white;
+    color: black;
+  }
+
+  ::-moz-selection {
+    background-color: white;
+    color: black;
+  }
+}

@@ -31,7 +31,7 @@ const Footer = () => (
             </li>
           </ul>
           <p>
-            Copyright 2019 &copy;&nbsp;
+            Copyright {new Date().getFullYear()} &copy;&nbsp;
             <a href='https://www.basilmeer.com'>Basil Meer</a>. All rights
             reserved.
           </p>
