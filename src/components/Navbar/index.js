@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
@@ -35,16 +35,13 @@ const Navbar = ({ darkMode, handleThemeToggle }) => (
           </Link>
         </li>
         <li className='nav-item d-flex align-items-center'>
-          <a
-            href='javascript:void(0);'
-            onClick={handleThemeToggle}
-            className='theme-toggle'>
+          <button onClick={handleThemeToggle} className='theme-toggle'>
             {darkMode ? (
               <FontAwesomeIcon icon={faSun} size='sm' />
             ) : (
               <FontAwesomeIcon icon={faMoon} size='sm' />
             )}
-          </a>
+          </button>
         </li>
       </ul>
     </div>

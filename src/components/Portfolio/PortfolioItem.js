@@ -6,11 +6,14 @@ import images from '../../assets/images';
 
 const PortfolioItem = (props) => {
   const { title, content, href } = props;
-  const thumbnailName = title.replace(/\s|-/g, '_').toLowerCase();
+  const thumbnailName = title?.replace(/\s|-/g, '_').toLowerCase();
   return (
-    <a href={href} className='portfolio-item' target='_blank'>
+    <a
+      href={href}
+      className='portfolio-item'
+      target='_blank'
+      rel='noopener noreferrer'>
       <div className='image'>
-        <div className='overlay'></div>
         <img src={images[thumbnailName]} alt={title} />
       </div>
       <div className='content'>

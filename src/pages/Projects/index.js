@@ -6,7 +6,9 @@ import Footer from '../../components/Footer';
 const Projects = () => (
   <>
     <Snackbar />
-    <Portfolio />
+    <div id='projects'>
+      <Portfolio defaultItems={4} showPagination={true} showMoreLink={false} />
+    </div>
     <Footer />
   </>
 );

@@ -11,29 +11,33 @@ const Footer = () => (
         <div className='col-lg-12'>
           <ul className='list-unstyled'>
             <li className='float-right'>
-              <a href='#'>Back to top</a>
+              <button className='scroll-top-btn'>Back to top</button>
             </li>
             <li>You can also find me here:</li>
             <li>
-              <a href='mailto:hello@basilmeer.com'>
+              <a href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </li>
             <li>
-              <a href='https://www.linkedin.com/in/basilmeer/'>
+              <a
+                href='https://www.linkedin.com/in/basilmeer/'
+                rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
             <li>
-              <a href='https://github.com/basilmeer/'>
+              <a href='https://github.com/basilmeer/' rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
           </ul>
           <p>
             Copyright {new Date().getFullYear()} &copy;&nbsp;
-            <a href='https://www.basilmeer.com'>Basil Meer</a>. All rights
-            reserved.
+            <a href='https://www.basilmeer.com' rel='noopener noreferrer'>
+              Basil Meer
+            </a>
+            . All rights reserved.
           </p>
         </div>
       </div>

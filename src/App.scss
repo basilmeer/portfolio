@@ -6,6 +6,7 @@
 @import './components/Portfolio/style.scss';
 @import './components/Snackbar/style.scss';
 @import './components/Welcome/style.scss';
+@import './components/Pagination/style.scss';
 
 @import './darkmode.scss';
 
@@ -80,6 +81,8 @@ body {
 
 .App {
   transition: 0.25s ease-in-out;
+  min-height: 100vh;
+
   @media screen and (max-width: 480px) {
     padding: 3em 0 3em 0;
   }

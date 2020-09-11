@@ -29,7 +29,11 @@ export default () => {
         <Navbar darkMode={darkMode} handleThemeToggle={handleThemeToggle} />
         <Route exact path='/'>
           <Welcome />
-          <Portfolio />
+          <Portfolio
+            defaultItems={4}
+            showPagination={false}
+            showMoreLink={true}
+          />
           <Contact />
           <Footer />
         </Route>
