@@ -4,7 +4,11 @@ const Contact = () => (
   <div className='content-container' id='contact'>
     <div id='contact'>
       <div className='page-header text-center'>
-        <h3>Contact</h3>
+        <h2 className='display-4 text-left font-weight-extra-bold'>
+          Let's work together on
+          <br />
+          your next project
+        </h2>
       </div>
       <div className='row mt-4'>
         <div className='form-group col-12 col-md-6'>

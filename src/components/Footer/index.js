@@ -8,33 +8,39 @@ const Footer = () => (
   <div className='content-container'>
     <footer id='footer'>
       <div className='row'>
-        <div className='col-lg-12'>
+        <div className='col-8 social-media-links'>
           <ul className='list-unstyled'>
-            <li className='float-right'>
-              <a href='#'>Back to top</a>
-            </li>
             <li>You can also find me here:</li>
             <li>
-              <a href='mailto:hello@basilmeer.com'>
+              <a href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </li>
             <li>
-              <a href='https://www.linkedin.com/in/basilmeer/'>
+              <a
+                href='https://www.linkedin.com/in/basilmeer/'
+                rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
             <li>
-              <a href='https://github.com/basilmeer/'>
+              <a href='https://github.com/basilmeer/' rel='noopener noreferrer'>
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
           </ul>
           <p>
-            Copyright 2019 &copy;&nbsp;
-            <a href='https://www.basilmeer.com'>Basil Meer</a>. All rights
-            reserved.
+            <small className='font-weight-light'>
+              Copyright {new Date().getFullYear()} &copy;&nbsp;
+              <a href='https://www.basilmeer.com' rel='noopener noreferrer' className='font-weight-bold'>
+                Basil Meer
+              </a>
+              . All rights reserved.
+            </small>
           </p>
+        </div>
+        <div className='col-4 text-right'>
+          <a href='#'>Back to top</a>
         </div>
       </div>
     </footer>

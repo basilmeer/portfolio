@@ -1,22 +1,34 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 
 import images from '../../assets/images';
 
 const PortfolioItem = (props) => {
   const { title, content, href } = props;
-  const thumbnailName = title.replace(/\s|-/g, '_').toLowerCase();
+  const thumbnailName = title?.replace(/\s|-/g, '_').toLowerCase();
   return (
-    <div className='portfolio-item'>
-      <span className='image'>
+    <a
+      href={href}
+      className='portfolio-item'
+      target='_blank'
+      rel='noopener noreferrer'>
+      <div className='image'>
         <img src={images[thumbnailName]} alt={title} />
-      </span>
-      <a href={href} target='_blank'>
-        <h2>{title}</h2>
-        <div className='content'>
-          <p>{content}</p>
-        </div>
-      </a>
-    </div>
+      </div>
+      <div className='content'>
+        <h2 className='title'>{title}</h2>
+        <p className='description'>{content}</p>
+        <p className='view-more'>
+          View More
+          <FontAwesomeIcon
+            icon={faLongArrowAltRight}
+            size='sm'
+            className='ml-2 view-more-icon'
+          />
+        </p>
+      </div>
+    </a>
   );
 };
 

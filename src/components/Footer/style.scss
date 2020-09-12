@@ -6,4 +6,14 @@
     display: inline;
     margin: 0 1.5em 1.5em 0;
   }
+  .social-media-links {
+    ul {
+      li {
+        display: inline;
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
 }

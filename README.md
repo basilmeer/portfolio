@@ -1,1 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Portfolio
+Code's not all that clean but it's something. Made with React, sweat and tears.
+
+![I tried](./src/assets/images/i_tried.png)
