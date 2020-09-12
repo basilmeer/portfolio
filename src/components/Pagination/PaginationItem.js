@@ -1,18 +1,22 @@
 import React from 'react';
 
 const PaginationItem = ({ numberOfPages, activePage, setActivePage }) => {
+  const paginationItemsArray = [];
   for (let i = 0; i < numberOfPages; i++) {
-    return (
-      <li className={`page-item ${activePage === i && 'active'}`}>
+    paginationItemsArray.push(
+      <li className={`page-item ${activePage === i && 'active'}`} key={i}>
         <a
-          onClick={() => setActivePage(i + 1)}
-          href='javascript:void(0)'
+          onClick={(e) => {
+            e.preventDefault();
+            setActivePage(i);
+          }}
           className='page-link'>
           {i + 1}
         </a>
       </li>
-    );
+    )
   }
+  return paginationItemsArray;
 };
 
 export default PaginationItem;

@@ -7,7 +7,7 @@ import Pagination from '../Pagination';
 const Portfolio = ({ defaultItems, showPagination, showMoreLink }) => {
   const [portfolio, setPortfolio] = useState([]);
   const [activePage, setActivePage] = useState(0);
-  const numberOfPages = Math.floor(portfolioList.length / defaultItems);
+  const numberOfPages = Math.ceil(portfolioList.length / defaultItems);
 
   useEffect(() => {
     /* Iterate over portfolioList and break it up into chunks of 6 */
@@ -27,8 +27,8 @@ const Portfolio = ({ defaultItems, showPagination, showMoreLink }) => {
       <div className='content-container'>
         <div className='page-header text-center'>
           <h2 className='display-4 text-left font-weight-extra-bold'>
-            Stuff I've worked <br />
-            on lately
+            Stuff I've made over <br />
+            the past few years
           </h2>
         </div>
         <div className='portfolio-tiles mt-5 mb-3'>
