@@ -1,0 +1,120 @@
+#welcome {
+  padding-top: 145px;
+
+  .welcome-message {
+    font-size: 1.06rem;
+    word-spacing: 2px;
+    line-height: 27px;
+    width: 90%;
+
+    h1 {
+      font-weight: 700;
+      -webkit-animation: tracking-in-expand 0.7s
+        cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+        both;
+    }
+
+    .lead {
+      font-weight: 100;
+      -webkit-animation: swing-in-top-fwd 1.2s
+        cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+      animation: swing-in-top-fwd 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+        both;
+    }
+
+    h1,
+    .lead {
+      margin-bottom: 35px;
+    }
+  }
+
+  .img-me {
+    margin-top: 35px;
+    -webkit-animation: shadow-expand-tr 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
+      both;
+    animation: shadow-expand-tr 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+
+    @media screen and (max-width: 480px) {
+      width: 50%;
+      margin-bottom: 1.5em;
+    }
+  }
+}
+
+@-webkit-keyframes shadow-expand-tr {
+  0% {
+    box-shadow: 0px 0px;
+  }
+  100% {
+    box-shadow: 35px -35px #dddddd, 60px -60px #f3f3f3;
+  }
+}
+
+@keyframes shadow-expand-tr {
+  0% {
+    box-shadow: 0px 0px;
+  }
+  100% {
+    box-shadow: 35px -35px #dddddd, 60px -60px #f3f3f3;
+  }
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
+}

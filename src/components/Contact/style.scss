@@ -1,0 +1,14 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  font-weight: 300;
+
+  .form-control {
+    font-weight: 100;
+  }
+
+  textarea {
+    padding: 20px;
+  }
+}
