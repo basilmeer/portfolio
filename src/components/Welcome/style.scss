@@ -9,6 +9,7 @@
 
     h1 {
       font-weight: 700;
+      text-transform: initial;
       -webkit-animation: tracking-in-expand 0.7s
         cubic-bezier(0.215, 0.61, 0.355, 1) both;
       animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)

@@ -10,30 +10,25 @@ const Welcome = () => {
         <div className='col-12 col-md-8 order-2 order-md-1'>
           <div className='welcome-message'>
             <h1 className='display-4'>
-              Welcome{' '}
-              <span className='bear' role='img' aria-label='Bear'>
-                🐻
-              </span>
+              Hey there!
             </h1>
             <p className='lead'>
-              I'm <span className='font-weight-bold'>Basil Meer</span>, a&nbsp;
-              <span className='font-weight-bold'>Graphics Designer</span>
-              &nbsp;turned&nbsp;
+              I'm <span className='font-weight-bold'>Basil Meer</span>, a{' '}
               <span className='font-weight-bold'>Full-Stack Developer</span>
-              &nbsp;from <span className='font-weight-bold'>Pakistan</span>. I
-              make stuff using&nbsp;
-              <span className='font-weight-bold'>React.js</span>,&nbsp;
-              <span className='font-weight-bold'>Ruby on Rails</span>,&nbsp;
-              <span className='font-weight-bold'>PostgreSQL</span> and&nbsp;
+              {' '}from <span className='font-weight-bold'>Pakistan</span>. I
+              make stuff using{' '}
+              <span className='font-weight-bold'>React.js</span>,{' '}
+              <span className='font-weight-bold'>Ruby on Rails</span>,{' '}
+              <span className='font-weight-bold'>PostgreSQL</span> and{' '}
               <span className='font-weight-bold'>Apollo GraphQL</span>. If
-              you've got a project that needs some working, and think I'm the
-              right guy for the job then hit me up at&nbsp;
+              you've got something in the works that needs to be done, then I
+              might just turn out to be the right fit for the job! Hit me up at{' '}
               <span className='anchor-fancy'>
                 <a href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
                   hello@basilmeer.com
                 </a>
               </span>
-              &nbsp;and maybe we can work something out!
+              {' '} and maybe we can work something out!
             </p>
             <a
               target='_blank'

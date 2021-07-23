@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -26,6 +27,7 @@ export default () => {
     <div className={`App ${darkMode ? 'dark' : ''}`}>
       <Snackbar />
       <Router>
+        <ScrollToTop />
         <Navbar darkMode={darkMode} handleThemeToggle={handleThemeToggle} />
         <Route exact path='/'>
           <Welcome />
