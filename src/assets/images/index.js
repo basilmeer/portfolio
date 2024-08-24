@@ -3,6 +3,8 @@ const images = {
   combo_fu: require('./combo_fu.png'),
   craft_world: require('./craft_world.png'),
   denoted: require('./denoted.png'),
+  pocketmed: require('./pocket_med.png'),
+  sildenafil: require('./sildenafil.png'),
   hobuddies: require('./hobuddies.png'),
   nadius_solutions: require('./nadius_solutions.png'),
   omdbrowser: require('./omdbrowser.png'),

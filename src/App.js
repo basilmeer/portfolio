@@ -36,7 +36,6 @@ export default () => {
             showPagination={false}
             showMoreLink={true}
           />
-          <Contact />
           <Footer />
         </Route>
         <Route exact path='/projects'>

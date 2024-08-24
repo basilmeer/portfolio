@@ -1,5 +1,15 @@
 [
   {
+    "title": "PocketMed",
+    "content": "An online weight-loss medical visit consultation platform that connects patients with medical providers.",
+    "href": "https://pocketmed.com"
+  },
+  {
+    "title": "Sildenafil",
+    "content": "An online platform that connects patients with health care providers for men's health.",
+    "href": "https://sildenafil.com"
+  },
+  {
     "title": "Denoted",
     "content": "A React and Ruby on Rails-based note-taking web app that sports a nifty text editor with a clean and sleek look.",
     "href": "https://denoted.herokuapp.com"

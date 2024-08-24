@@ -1,7 +1,7 @@
 import React from 'react';
 
 import images from '../../assets/images';
-import resume from '../../basilmeer-resume-jan-2020.pdf';
+import resume from '../../basilmeer-resume-aug-2024.pdf';
 
 const Welcome = () => {
   return (
@@ -14,21 +14,22 @@ const Welcome = () => {
             </h1>
             <p className='lead'>
               I'm <span className='font-weight-bold'>Basil Meer</span>, a{' '}
-              <span className='font-weight-bold'>Full-Stack Developer</span>
-              {' '}from <span className='font-weight-bold'>Pakistan</span>. I
-              make stuff using{' '}
-              <span className='font-weight-bold'>React.js</span>,{' '}
+              <span className='font-weight-bold'>Full-Stack Developer</span>{' '}
+              and I make stuff using{' '}
               <span className='font-weight-bold'>Ruby on Rails</span>,{' '}
-              <span className='font-weight-bold'>PostgreSQL</span> and{' '}
-              <span className='font-weight-bold'>Apollo GraphQL</span>. If
-              you've got something in the works that needs to be done, then I
-              might just turn out to be the right fit for the job! Hit me up at{' '}
+              <span className='font-weight-bold'>React.js</span>,{' '}
+              <span className='font-weight-bold'>GraphQL</span> &amp;{' '}
+              <span className='font-weight-bold'>PostgreSQL</span>.{' '}
+              I also dabble with <span className='font-weight-bold'>DevOps</span> on{' '}
+              <span className='font-weight-bold'>AWS</span> and <span className='font-weight-bold'>Heroku</span>.{' '}
+              Looking for an engineer or a consultant?{' '}
+              Feel free to reach out at{' '}
               <span className='anchor-fancy'>
                 <a href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
                   hello@basilmeer.com
                 </a>
               </span>
-              {' '} and maybe we can work something out!
+              {' '} and we can definitely work something out.
             </p>
             <a
               target='_blank'
