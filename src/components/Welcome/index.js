@@ -14,22 +14,21 @@ const Welcome = () => {
             </h1>
             <p className='lead'>
               I'm <span className='font-weight-bold'>Basil Meer</span>, a{' '}
-              <span className='font-weight-bold'>Full-Stack Developer</span>{' '}
+              <span className='font-weight-bold'>Full-Stack Engineer &amp; Consultant,</span>{' '}
               and I make stuff using{' '}
               <span className='font-weight-bold'>Ruby on Rails</span>,{' '}
               <span className='font-weight-bold'>React.js</span>,{' '}
-              <span className='font-weight-bold'>GraphQL</span> &amp;{' '}
-              <span className='font-weight-bold'>PostgreSQL</span>.{' '}
+              <span className='font-weight-bold'>PostgreSQL</span> &amp;{' '}
+              <span className='font-weight-bold'>GraphQL</span>.{' '}
               I also dabble with <span className='font-weight-bold'>DevOps</span> on{' '}
               <span className='font-weight-bold'>AWS</span> and <span className='font-weight-bold'>Heroku</span>.{' '}
-              Looking for an engineer or a consultant?{' '}
-              Feel free to reach out at{' '}
+              Reach out at{' '}
               <span className='anchor-fancy'>
                 <a href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
                   hello@basilmeer.com
                 </a>
               </span>
-              {' '} and we can definitely work something out.
+              {' '} and we can work something out.
             </p>
             <a
               target='_blank'
