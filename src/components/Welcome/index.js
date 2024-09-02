@@ -1,7 +1,7 @@
 import React from 'react';
 
 import images from '../../assets/images';
-import resume from '../../basilmeer-resume-aug-2024.pdf';
+import resume from '../../basilmeer-resume-sep-2024.pdf';
 
 const Welcome = () => {
   return (
