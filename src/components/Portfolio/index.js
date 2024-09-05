@@ -32,8 +32,7 @@ const Portfolio = ({ defaultItems, showPagination, showMoreLink }) => {
       <div className='content-container'>
         <div className='page-header text-center'>
           <h2 className='display-4 text-left font-weight-extra-bold'>
-            Stuff I've made over <br />
-            the past few years
+            Recent projects
           </h2>
         </div>
         <div className='portfolio-tiles mt-5 mb-3'>
