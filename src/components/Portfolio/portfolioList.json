@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Telehealth System",
+    "content": "An online weight-loss medical visit consultation platform that connects patients with medical providers.",
+    "href": "#",
+    "stack": "Ruby on Rails, Next.js, Typescript, TailwindCSS, PostgreSQL, Authorize.Net, AWS"
+  },
+  {
+    "title": "Men's Health Telehealth System",
+    "content": "An online platform that connects patients with health care providers for men's health.",
+    "href": "#",
+    "stack": "Ruby on Rails, React.js, Redux, PostgreSQL, Bootstrap, Authorize.Net, AWS"
+  },
+  {
+    "title": "Denoted",
+    "content": "A React and Ruby on Rails-based note-taking web app that sports a nifty text editor with a clean and sleek look.",
+    "href": "https://denoted.herokuapp.com",
+    "stack": "Ruby on Rails, React.js, TailwindCSS, GraphQL, PostgreSQL, Heroku"
+  },
+  {
+    "title": "Combo-Fu",
+    "content": "A MERN-based web app that translates fighting game notation into visual inputs.",
+    "href": "https://combo-fu.herokuapp.com",
+    "stack": "MongoDB, Express.js, React.js, Node.js, Heroku"
+  },
+  {
+    "title": "Recipes a la React",
+    "content": "A MERN-based recipe noting web app that also uses Apollo Boost to link up GraphQL.",
+    "href": "https://recipes-a-la-react.herokuapp.com",
+    "stack": "MongoDB, Express.js, React.js, Node.js,, Apollo Boost, GraphQL, Heroku"
+  },
+  {
+    "title": "React and Redux IM",
+    "content": "Made a chat app built with React, Redux Saga and Websockets that runs purely on the client-side with no back-end.",
+    "href": "https://github.com/basilmeer/react-redux-instant-messaging",
+    "stack": "React.js, Redux Saga, Websockets"
+  },
+  {
+    "title": "OMDbrowser",
+    "content": "Made React-based web app that uses the OMDb API to query and show movies, TV series and whatnot.",
+    "href": "https://omdbrowser.netlify.com/",
+    "stack": "React.js"
+  },
+  {
+    "title": "Nadius Solutions",
+    "content": "Made the company website for a Dutch software house that provides various web-related services.",
+    "href": "http://nadisol.com/",
+    "stack": "React.js"
+  },
+  {
+    "title": "Veteranlogix",
+    "content": "Made the company website for a Pakistan-based software house that provides custom-tailored digital solutions.",
+    "href": "https://www.veteranlogix.com/",
+    "stack": "Bootstrap"
+  },
+  {
+    "title": "Veteran People",
+    "content": "Redesigned and rebranded a digital agency website that focused on developing, maintaining and hosting WordPress websites.",
+    "href": "https://drive.google.com/open?id=1KV4rxLIaGd-FHCyaOiCWMYndZeQocOxp",
+    "stack": "Adobe Photoshop, Adobe Xd"
+  },
+  {
+    "title": "Villa",
+    "content": "Designed a website for a fictional real estate agency as a part of a batch of designs that was to be adapted to WordPress themes.",
+    "href": "https://drive.google.com/open?id=1ePmgWYVRGZuZelE4RBvIztNxoTUdxG4p",
+    "stack": "Adobe Photoshop, Adobe Xd"
+  },
+  {
+    "title": "Hobuddies",
+    "content": "Created the brand identity and made various graphics for marketing purposes for a speed-networking social media platform.",
+    "href": "https://drive.google.com/open?id=1g2HtD-h0eC3nlGpl8cbvB89kizgG5b8C",
+    "stack": "Adobe Photoshop, Adobe Xd, Adobe Illustrator, Adobe After Effects"
+  },
+  {
+    "title": "clean",
+    "content": "Designed a one page portfolio website for a fictional company as a part of a batch of designs that was to be adapted to WordPress themes.",
+    "href": "https://drive.google.com/open?id=1SGttwhmoTD46uNHXvyg5CrP-iSCB-2wp",
+    "stack": "Adobe Photoshop"
+  },
+  {
+    "title": "Snapshot",
+    "content": "Designed a website for a fictional photography studio as a part of a batch of designs that was to be adapted to WordPress themes.",
+    "href": "https://drive.google.com/open?id=1mZjTCMxc1Caaktjua8xXi0q7KWJvVAIw",
+    "stack": "Adobe Photoshop"
+  },
+  {
+    "title": "Craft World",
+    "content": "Designed the logo for a platform that aimed to give exposure to local handicraft artisans in Pakistan.",
+    "href": "https://drive.google.com/open?id=1-qgvM6ADFRR8H4RszZHHOAHDflV1dgok",
+    "stack": "Adobe Photoshop"
+  }
+]
