@@ -3,7 +3,7 @@ import images from '../../assets/images';
 
 const Navbar = ({ darkMode, handleThemeToggle }) => (
   <nav
-    className={`flex w-full px-2 py-6 md:px-10 md:py-6 fixed bg-transparent z-50`}>
+    className={`flex w-full px-2 py-3 lg:px-10 lg:py-6 fixed bg-${darkMode ? '[#1b1b1b]' : 'white'} lg:bg-transparent z-[500]`}>
     <img className="w-9 h-9 md:w-12 md:h-12 transition-all hover:rotate-90" src={darkMode ? images.icon_dark : images.icon} alt='Basil Meer' />
 
     <div className="flex items-center ml-auto">

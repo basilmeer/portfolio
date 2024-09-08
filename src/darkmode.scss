@@ -48,11 +48,9 @@
     }
   }
 
-  #welcome {
-    .img-me {
-      -webkit-animation: shadow-expand-tr-dark 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-      animation: shadow-expand-tr-dark 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-    }
+  .img-me {
+    -webkit-animation: shadow-expand-tr-dark 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+    animation: shadow-expand-tr-dark 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   }
 
   $bs-1: #3b3b3b;
