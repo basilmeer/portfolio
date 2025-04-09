@@ -1,5 +1,5 @@
 import images from '../../assets/images';
-import resume from '../../basilmeer-resume-sep-2024.pdf';
+import resume from '../../basilmeer-resume.pdf';
 
 const Welcome = () => {
   return (
