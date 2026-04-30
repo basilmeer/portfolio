@@ -6,6 +6,7 @@ import pocketmed from './pocket_med.png'
 import sildenafil from './sildenafil.png'
 import gymregime from './gymregime.png'
 import mockingbird from './mockingbird.png'
+import fancy_dropdown from './fancy_dropdown.png'
 import hobuddies from './hobuddies.png'
 import nadius_solutions from './nadius_solutions.png'
 import omdbrowser from './omdbrowser.png'
@@ -28,6 +29,7 @@ const images = {
   pocketmed,
   sildenafil,
   gymregime,
+  fancy_dropdown,
   mockingbird,
   hobuddies,
   nadius_solutions,
