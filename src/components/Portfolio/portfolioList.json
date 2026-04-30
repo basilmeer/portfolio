@@ -28,30 +28,37 @@
     "year": "2024"
   },
   {
-    "title": "Denoted",
-    "content": "A modern note-taking app built with React and Rails, featuring a clean writing interface and structured content workflows.",
-    "href": "https://denoted.herokuapp.com",
-    "stack": "Ruby on Rails, React.js, TailwindCSS, GraphQL, PostgreSQL, Heroku",
-    "year": "2023"
+    "title": "Fancy Dropdown",
+    "content": "A small jQuery-based library for building more styleable dropdowns from readonly input fields with array/JSON option support and simple setup.",
+    "href": "https://basilmeer.github.io/fancy-dropdown/",
+    "stack": "JavaScript, jQuery, CSS, SCSS, HTML",
+    "year": "2021"
   },
   {
-    "title": "Combo-Fu",
-    "content": "A MERN app that translates fighting-game notation into visual inputs to make combo guides easier to read and practice.",
-    "href": "https://combo-fu.herokuapp.com",
-    "stack": "MongoDB, Express.js, React.js, Node.js, Heroku",
-    "year": "2022"
+    "title": "Denoted",
+    "content": "A modern note-taking app built with React and Rails, featuring a clean writing interface and structured content workflows.",
+    "href": "#",
+    "stack": "Ruby on Rails, React.js, TailwindCSS, GraphQL, PostgreSQL, Heroku",
+    "year": "2021"
   },
   {
     "title": "Nadius Solutions",
     "content": "Corporate website built for a Dutch software house to showcase services, capabilities, and digital offerings.",
-    "href": "http://nadisol.com/",
+    "href": "#",
     "stack": "React.js",
     "year": "2021"
   },
   {
+    "title": "Combo-Fu",
+    "content": "A MERN app that translates fighting-game notation into visual inputs to make combo guides easier to read and practice.",
+    "href": "#",
+    "stack": "MongoDB, Express.js, React.js, Node.js, Heroku",
+    "year": "2020"
+  },
+  {
     "title": "Recipes a la React",
     "content": "A recipe management web app on the MERN stack with GraphQL integration for querying and organizing recipe data.",
-    "href": "https://recipes-a-la-react.herokuapp.com",
+    "href": "#",
     "stack": "MongoDB, Express.js, React.js, Node.js,, Apollo Boost, GraphQL, Heroku",
     "year": "2018"
   },
