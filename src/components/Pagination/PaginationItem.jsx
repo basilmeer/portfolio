@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const PaginationItem = ({ numberOfPages, activePage, setActivePage, darkMode }) => {
   const paginationItemsArray = [];
 
@@ -6,22 +8,27 @@ const PaginationItem = ({ numberOfPages, activePage, setActivePage, darkMode }) 
       <li
         key={i}
       >
-        <a
+        <button
+          type="button"
           className={
             `
-            px-3 py-2 border hover:cursor-pointer
-            ${activePage === i && 'bg-gray-100'}
-            ${darkMode && activePage === i && 'bg-white/10'}
-            ${darkMode ? 'border-white/20' : ''}
+            min-w-11 border-r px-4 py-2 text-sm font-semibold tracking-wide transition-colors duration-150
+            focus:outline-none
+            ${activePage === i && !darkMode && 'bg-black text-white'}
+            ${activePage === i && darkMode && 'bg-white text-black'}
+            ${activePage !== i && darkMode && 'bg-transparent text-white hover:bg-white/10'}
+            ${activePage !== i && !darkMode && 'bg-transparent text-black hover:bg-black/10'}
+            ${darkMode ? 'border-r-white/30' : 'border-r-black/30'}
+            ${i === numberOfPages - 1 ? 'border-r-0' : ''}
             `
           }
-          onClick={(e) => {
-            e.preventDefault();
+          aria-current={activePage === i ? 'page' : undefined}
+          onClick={() => {
             setActivePage(i);
           }}
         >
           {i + 1}
-        </a>
+        </button>
       </li>
     )
   }
@@ -30,3 +37,10 @@ const PaginationItem = ({ numberOfPages, activePage, setActivePage, darkMode }) 
 };
 
 export default PaginationItem;
+
+PaginationItem.propTypes = {
+  numberOfPages: PropTypes.number.isRequired,
+  activePage: PropTypes.number.isRequired,
+  setActivePage: PropTypes.func.isRequired,
+  darkMode: PropTypes.bool.isRequired,
+};

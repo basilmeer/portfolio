@@ -4,6 +4,8 @@ import craft_world from './craft_world.png'
 import denoted from './denoted.png'
 import pocketmed from './pocket_med.png'
 import sildenafil from './sildenafil.png'
+import gymregime from './gymregime.png'
+import mockingbird from './mockingbird.png'
 import hobuddies from './hobuddies.png'
 import nadius_solutions from './nadius_solutions.png'
 import omdbrowser from './omdbrowser.png'
@@ -25,6 +27,8 @@ const images = {
   denoted,
   pocketmed,
   sildenafil,
+  gymregime,
+  mockingbird,
   hobuddies,
   nadius_solutions,
   omdbrowser,
