@@ -35,7 +35,7 @@ const Welcome = ({ darkMode }) => {
             you think we can work something out, reach out at{" "}
             <span className="relative z-[1] inline-block">
               <a
-                href="mailto:hello@basilmeer.com"
+                href="mailto:basilmeer@gmail.com"
                 rel="noopener noreferrer"
                 className={`font-bold relative z-[2] border-b-0 after:absolute after:-bottom-1 after:left-3 after:-z-[1] after:h-[calc(100%-12px)] after:w-[calc(100%-8px)] after:transition-all after:duration-300 hover:after:-bottom-0.5 hover:after:-left-[5px] hover:after:h-[105%] hover:after:w-[105%] ${darkMode
                   ? 'text-white after:bg-[#444444] hover:text-black hover:after:bg-white'
