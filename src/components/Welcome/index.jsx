@@ -1,7 +1,6 @@
 import images from '../../assets/images';
 import resume from '../../basilmeer-resume.pdf';
 import PropTypes from 'prop-types';
-import essealCube from "../../assets/esseal_cube.png";
 
 const Welcome = ({ darkMode }) => {
   return (
@@ -13,20 +12,11 @@ const Welcome = ({ darkMode }) => {
           </h1>
           <p className="mb-5 text-lg font-light leading-7 md:leading-9 lg:text-xl">
             I&apos;m <span className="font-bold">Basil Meer</span>, a{" "}
-            <span className="font-bold">Managing Partner</span> at{" "}
-            <a
-              href="https://esseal.co.uk"
-              className="inline whitespace-nowrap align-baseline font-bold hover:opacity-80"
-              aria-label="Visit Esseal website"
-            >
-              <img src={essealCube} alt="Esseal cube" className="mr-1 inline-block w-5 align-[-0.15em]" />
-              <span className="align-baseline">Esseal</span>
-            </a>{" "}
-            and a{" "}
-            <span className="font-bold">Full-Stack Engineer.</span>{" "}
-            I specialize in developing bespoke software using{" "}
-            <span className="font-bold">Ruby on Rails</span> &amp;{" "}
-            <span className="font-bold">React.js</span>.
+            <span className="font-bold">Senior Software Engineer</span> with 10 years
+            of experience building reliable products with{" "}
+            <span className="font-bold">Ruby on Rails</span>,{" "}
+            <span className="font-bold">React</span>, and{" "}
+            <span className="font-bold">Go</span>, from architecture to launch.
             <br className="block md:hidden" />
             <br className="block md:hidden" />
           </p>
