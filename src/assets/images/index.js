@@ -17,7 +17,7 @@ import veteran_people from './veteran_people.png'
 import veteranlogix from './veteranlogix.png'
 import villa from './villa.png'
 import icon from './b_icon.svg'
-import basil from './basil_meer.jpg'
+import basil from './basil_meer.png'
 import icon_dark from './b_icon_darkmode.svg'
 
 
