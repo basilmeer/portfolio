@@ -1,9 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 
 import images from '../../assets/images';
-import { Layers } from 'lucide-react';
+import { ArrowRight, Layers } from 'lucide-react';
 import { Tooltip } from 'react-tooltip';
 
 const PortfolioItem = ({ item, darkMode }) => {
@@ -55,10 +53,10 @@ const PortfolioItem = ({ item, darkMode }) => {
           <Tooltip id={tooltipId} positionStrategy="fixed" style={{ zIndex: 9999 }} />
           <p className="relative right-0 mt-auto text-right transition-all duration-300 group-hover:-right-2">
             Check it out
-            <FontAwesomeIcon
-              icon={faLongArrowAltRight}
-              size="sm"
-              className="ml-2"
+            <ArrowRight
+              size={14}
+              aria-hidden="true"
+              className="ml-2 inline-block"
             />
           </p>
         </div>
