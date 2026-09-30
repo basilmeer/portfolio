@@ -13,10 +13,10 @@ const Welcome = ({ darkMode }) => {
           <p className="mb-5 text-lg font-light leading-7 md:leading-9 lg:text-xl">
             I&apos;m <span className="font-bold">Basil Meer</span>, a{" "}
             <span className="font-bold">Senior Software Engineer</span> with 10 years
-            of experience building reliable products with{" "}
-            <span className="font-bold">Ruby on Rails</span>,{" "}
-            <span className="font-bold">React</span>, and{" "}
-            <span className="font-bold">Go</span>, from architecture to launch.
+            of experience, specializing in{" "}
+            <span className="font-bold">Ruby on Rails</span> and{" "}
+            <span className="font-bold">React</span>. I enjoy solving practical
+            problems and making the web a little easier to use.
             <br className="block md:hidden" />
             <br className="block md:hidden" />
           </p>
