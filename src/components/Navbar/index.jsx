@@ -17,7 +17,7 @@ const Navbar = ({ darkMode, handleThemeToggle }) => (
     <div className="flex items-center ml-auto">
       <ul className="flex items-center space-x-5">
         <li>
-          <a href='mailto:hello@basilmeer.com' className={darkMode ? 'text-white hover:text-white/70' : 'hover:text-[#7a7a7a]'}>
+          <a href='mailto:basilmeer@gmail.com' className={darkMode ? 'text-white hover:text-white/70' : 'hover:text-[#7a7a7a]'}>
             <Mail className="w-5 h-5" />
           </a>
         </li>

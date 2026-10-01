@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="flex justify-space-between">
       <ul className='flex w-full items-center space-x-6'>
         <li>
-          <a target="_blank" href='mailto:hello@basilmeer.com' rel='noopener noreferrer'>
+          <a target="_blank" href='mailto:basilmeer@gmail.com' rel='noopener noreferrer'>
             <Mail className="w-5 h-5" />
           </a>
         </li>
