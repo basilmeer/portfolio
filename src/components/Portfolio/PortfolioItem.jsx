@@ -20,6 +20,8 @@ const PortfolioItem = ({ item, darkMode }) => {
     }
   }
 
+  const thumbnail = images[formatImageNames(thumbnailName)];
+
   return (
     <a
       href={href}
@@ -30,12 +32,12 @@ const PortfolioItem = ({ item, darkMode }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="relative h-full overflow-hidden">
-        <img
-          src={images[formatImageNames(thumbnailName)]}
+      <div className="relative h-full overflow-hidden bg-neutral-800">
+        {thumbnail && <img
+          src={thumbnail}
           alt={title}
           className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-110"
-        />
+        />}
         <div className="absolute inset-0 bg-black/80" />
       </div>
       <div className="absolute inset-0 z-10 flex h-full flex-col p-[35px] transition-all duration-300 group-hover:pt-10">
@@ -49,8 +51,10 @@ const PortfolioItem = ({ item, darkMode }) => {
         </div>
         <p className="text-sm font-thin tracking-[0.5px]">{content}</p>
         <div className="flex items-center justify-between mt-auto">
-          <Layers onClick={(e) => e.stopPropagation()} data-tooltip-id={tooltipId} data-tooltip-content={stack} />
-          <Tooltip id={tooltipId} positionStrategy="fixed" style={{ zIndex: 9999 }} />
+          {stack && <>
+            <Layers onClick={(e) => e.stopPropagation()} data-tooltip-id={tooltipId} data-tooltip-content={stack} />
+            <Tooltip id={tooltipId} positionStrategy="fixed" style={{ zIndex: 9999 }} />
+          </>}
           <p className="relative right-0 mt-auto text-right transition-all duration-300 group-hover:-right-2">
             Check it out
             <ArrowRight

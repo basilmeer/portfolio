@@ -1,128 +1,147 @@
 [
   {
+    "title": "Helios",
+    "content": "A solar inverter monitoring platform with live Modbus TCP telemetry and automated WhatsApp alerts for grid outages, restoration, and high-load conditions.",
+    "href": "https://helios.projects.basilmeer.com",
+    "stack": "React, Ruby on Rails"
+  },
+  {
+    "title": "GroundSignal",
+    "content": "A multi-tenant estate operations platform with interactive maps for planning, assigning, and tracking work across distributed sites, with role-based access and auditable job workflows.",
+    "href": "https://groundsignal.projects.basilmeer.com",
+    "stack": "React, Ruby on Rails"
+  },
+  {
+    "title": "SlateInvoice",
+    "content": "An invoicing platform for creating and managing invoices throughout their lifecycle. Organizes client records and tracks payments. Supports secure authentication and business profiles.",
+    "href": "https://slateinvoice.projects.basilmeer.com",
+    "stack": "React, Ruby on Rails",
+    "stack": "2026"
+  },
+  {
     "title": "Mockingbird",
-    "content": "A mock data platform that serves realistic, repeatable payloads through REST and GraphQL APIs for QA, prototypes, and demos.",
-    "href": "https://mockingbird.basilmeer.com",
-    "stack": "Ruby on Rails, TailwindCSS",
-    "year": "2026"
+    "content": "A mock data platform for QA, prototypes, and demos. Serves realistic, repeatable payloads through REST and GraphQL APIs.",
+    "href": "https://mockingbird.projects.basilmeer.com",
+    "stack": "Ruby on Rails, TailwindCSS, GraphQL"
+  },
+  {
+    "title": "SnapStock",
+    "content": "An AI-powered inventory system that turns document images into reviewable stock updates using Qwen2.5-VL extraction, asynchronous processing, and real-time WebSocket updates.",
+    "href": "#",
+    "stack": "React, Ruby on Rails, Go, PostgreSQL, Qwen2.5-VL, WebSockets"
   },
   {
     "title": "GymRegime",
-    "content": "A browser-based workout regime creator and tracker with muscle-group mapping, curated exercise recommendations, and JSON import/export.",
+    "content": "A browser-based application for creating and tracking workout routines. Provides muscle-group mapping and curated exercise recommendations.",
     "href": "https://gymregime.io",
-    "stack": "React.js, Material UI",
-    "year": "2026"
+    "stack": "React.js, Material UI"
   },
   {
-    "title": "Telehealth System",
-    "content": "A full telehealth consultation platform for online weight-loss programs connecting patients with licensed providers. Product identity and live demo are censored upon client request.",
+    "title": "Overwatch",
+    "content": "An AI-powered project and resource management platform for workforce, equipment, and subcontractor scheduling, conflict tracking, reporting, and team collaboration.",
+    "href": "https://theoverwatch.ai",
+    "stack": "React, Ruby on Rails, PostgreSQL, Material UI, GraphQL"
+  },
+  {
+    "title": "Curbside Health",
+    "content": "A clinical pathways and governance software platform that helps health systems turn static medical guidelines into interactive, electronic health record (EHR)-integrated decision support.",
+    "href": "https://www.curbsidehealth.online",
+    "stack": "React, Ruby on Rails, PostgreSQL, Material UI, GraphQL"
+  },
+  {
+    "title": "PocketMed",
+    "content": "A telehealth consultation platform for online weight-loss programs connecting patients with licensed providers, with a back-office CRM for orders, logistics, discounts, and leads.",
     "href": "#",
-    "stack": "Ruby on Rails, Next.js, Typescript, TailwindCSS, PostgreSQL, Authorize.Net, AWS",
-    "year": "2024"
+    "stack": "Ruby on Rails, Next.js, Typescript, TailwindCSS, PostgreSQL, Authorize.Net, AWS"
   },
   {
     "title": "Men's Health Telehealth System",
     "content": "A men's health telemedicine product for digital intake, consultations, and treatment flow management between patients and clinicians. Product identity and live demo are censored upon client request.",
     "href": "#",
-    "stack": "Ruby on Rails, React.js, Redux, PostgreSQL, Bootstrap, Authorize.Net, AWS",
-    "year": "2024"
+    "stack": "Ruby on Rails, React.js, Redux, PostgreSQL, Bootstrap, Authorize.Net, AWS"
   },
   {
     "title": "Fancy Dropdown",
     "content": "A small jQuery-based library for building more styleable dropdowns from readonly input fields with array/JSON option support and simple setup.",
     "href": "https://basilmeer.github.io/fancy-dropdown/",
-    "stack": "JavaScript, jQuery, CSS, SCSS, HTML",
-    "year": "2021"
+    "stack": "JavaScript, jQuery, CSS, SCSS, HTML"
   },
   {
     "title": "Denoted",
     "content": "A modern note-taking app built with React and Rails, featuring a clean writing interface and structured content workflows.",
     "href": "#",
-    "stack": "Ruby on Rails, React.js, TailwindCSS, GraphQL, PostgreSQL, Heroku",
-    "year": "2021"
+    "stack": "Ruby on Rails, React.js, TailwindCSS, GraphQL, PostgreSQL, Heroku"
   },
   {
     "title": "Nadius Solutions",
     "content": "Corporate website built for a Dutch software house to showcase services, capabilities, and digital offerings.",
     "href": "#",
-    "stack": "React.js",
-    "year": "2021"
+    "stack": "React.js"
   },
   {
     "title": "Combo-Fu",
     "content": "A MERN app that translates fighting-game notation into visual inputs to make combo guides easier to read and practice.",
     "href": "#",
-    "stack": "MongoDB, Express.js, React.js, Node.js, Heroku",
-    "year": "2020"
+    "stack": "MongoDB, Express.js, React.js, Node.js, Heroku"
   },
   {
     "title": "Recipes a la React",
     "content": "A recipe management web app on the MERN stack with GraphQL integration for querying and organizing recipe data.",
     "href": "#",
-    "stack": "MongoDB, Express.js, React.js, Node.js,, Apollo Boost, GraphQL, Heroku",
-    "year": "2018"
+    "stack": "MongoDB, Express.js, React.js, Node.js,, Apollo Boost, GraphQL, Heroku"
   },
   {
     "title": "React and Redux IM",
     "content": "A real-time instant messaging client built with React, Redux Saga, and WebSockets, designed as a frontend-only chat experience.",
     "href": "https://github.com/basilmeer/react-redux-instant-messaging",
-    "stack": "React.js, Redux Saga, Websockets",
-    "year": "2018"
+    "stack": "React.js, Redux Saga, Websockets"
   },
   {
     "title": "OMDbrowser",
     "content": "A React movie discovery app powered by the OMDb API for searching and browsing films and TV series.",
     "href": "https://omdbrowser.netlify.com/",
-    "stack": "React.js",
-    "year": "2018"
+    "stack": "React.js"
   },
   {
     "title": "Veteranlogix",
     "content": "Company website delivered for a Pakistan-based software house focused on custom software and digital solutions.",
     "href": "https://www.veteranlogix.com/",
-    "stack": "Bootstrap",
-    "year": "2018"
+    "stack": "Bootstrap"
   },
   {
     "title": "Veteran People",
     "content": "End-to-end rebrand and website redesign for a digital agency specializing in WordPress development, maintenance, and hosting.",
     "href": "https://drive.google.com/open?id=1KV4rxLIaGd-FHCyaOiCWMYndZeQocOxp",
-    "stack": "Adobe Photoshop, Adobe Xd",
-    "year": "2018"
+    "stack": "Adobe Photoshop, Adobe Xd"
   },
   {
     "title": "Villa",
     "content": "Concept website design for a fictional real-estate agency, created as part of a WordPress theme design batch.",
     "href": "https://drive.google.com/open?id=1ePmgWYVRGZuZelE4RBvIztNxoTUdxG4p",
-    "stack": "Adobe Photoshop, Adobe Xd",
-    "year": "2017"
+    "stack": "Adobe Photoshop, Adobe Xd"
   },
   {
     "title": "Hobuddies",
     "content": "Brand identity and marketing design work for a speed-networking social platform, including digital campaign assets.",
     "href": "https://drive.google.com/open?id=1g2HtD-h0eC3nlGpl8cbvB89kizgG5b8C",
-    "stack": "Adobe Photoshop, Adobe Xd, Adobe Illustrator, Adobe After Effects",
-    "year": "2018"
+    "stack": "Adobe Photoshop, Adobe Xd, Adobe Illustrator, Adobe After Effects"
   },
   {
     "title": "clean",
     "content": "One-page portfolio website concept for a fictional brand, designed for later adaptation into a WordPress theme.",
     "href": "https://drive.google.com/open?id=1SGttwhmoTD46uNHXvyg5CrP-iSCB-2wp",
-    "stack": "Adobe Photoshop",
-    "year": "2018"
+    "stack": "Adobe Photoshop"
   },
   {
     "title": "Snapshot",
     "content": "Website concept for a fictional photography studio, created as part of a design collection intended for WordPress themes.",
     "href": "https://drive.google.com/open?id=1mZjTCMxc1Caaktjua8xXi0q7KWJvVAIw",
-    "stack": "Adobe Photoshop",
-    "year": "2018"
+    "stack": "Adobe Photoshop"
   },
   {
     "title": "Craft World",
     "content": "Logo identity design for a platform built to spotlight local handicraft artisans in Pakistan.",
     "href": "https://drive.google.com/open?id=1-qgvM6ADFRR8H4RszZHHOAHDflV1dgok",
-    "stack": "Adobe Photoshop",
-    "year": "2018"
+    "stack": "Adobe Photoshop"
   }
 ]
