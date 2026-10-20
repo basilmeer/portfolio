@@ -5,7 +5,7 @@ import { ArrowRight, Layers } from 'lucide-react';
 import { Tooltip } from 'react-tooltip';
 
 const PortfolioItem = ({ item, darkMode }) => {
-  const { title, content, href, stack, year } = item;
+  const { title, content, href, stack, category } = item;
   const thumbnailName = title?.replace(/\s|-/g, '_').toLowerCase();
   const tooltipId = `tech-stack-${thumbnailName || 'item'}`;
 
@@ -41,13 +41,10 @@ const PortfolioItem = ({ item, darkMode }) => {
         <div className="absolute inset-0 bg-black/80" />
       </div>
       <div className="absolute inset-0 z-10 flex h-full flex-col p-[35px] transition-all duration-300 group-hover:pt-10">
-        <div className="mb-5 flex items-center gap-2">
+        <p className="mb-2 text-xs font-medium uppercase tracking-widest text-white/70">{category}</p>
+        <div className="mb-4 flex flex-wrap items-center gap-2">
           <h2 className="text-2xl font-black md:text-3xl">{title}</h2>
-          {year && (
-            <span className="shrink-0 border border-white/60 bg-black/45 px-2.5 py-1 text-[10px] font-semibold leading-none tracking-[0.2em] text-white backdrop-blur-sm shadow-[0_0_0_1px_rgba(0,0,0,0.35)]">
-              {year}
-            </span>
-          )}
+
         </div>
         <p className="text-sm font-thin tracking-[0.5px]">{content}</p>
         <div className="flex items-center justify-between mt-auto">
@@ -77,7 +74,7 @@ PortfolioItem.propTypes = {
     content: PropTypes.string.isRequired,
     href: PropTypes.string.isRequired,
     stack: PropTypes.string.isRequired,
-    year: PropTypes.string,
+    category: PropTypes.string.isRequired,
   }).isRequired,
   darkMode: PropTypes.bool.isRequired,
 };
